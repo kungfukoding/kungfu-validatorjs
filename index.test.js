@@ -26,7 +26,7 @@ test('check number inRange', () => {
 
 test('check number isContains', () => {
     const number = 15
-    assert.equal(number.isContains([5,10,15,20]), false)
+    assert.equal(number.isIn([5,10,15,20]), false)
 })
 
 test('check string isEmail', () => {
@@ -47,4 +47,13 @@ test('check string isAlnum', () => {
 test('check string inLength', () => {
     const string = 'Abcd1234'
     assert.equal(string.inLength(3, 10), true)
+})
+
+test('check falsy', () => {
+    assert.equal(is(0, 'falsy'), true)
+    assert.equal(is(null, 'falsy'), true)
+    assert.equal(is(undefined, 'falsy'), true)
+    assert.equal(is(false, 'falsy'), true)
+    assert.equal(is(NaN, 'falsy'), true)
+    assert.equal(is("", 'falsy'), true)
 })

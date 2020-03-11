@@ -20,7 +20,7 @@ const number = 15
 number.isGreaterThan(20) // false
 number.isLessThan(20) // true
 number.inRange(5, 20) // true
-number.isContains([5,10,15,20]) // true
+number.isIn([5,10,15,20]) // true
  
 const string = 'hafidmukhlasin@gmail.com'
 string.isEmail() // true

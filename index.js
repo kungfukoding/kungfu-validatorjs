@@ -18,6 +18,8 @@ const is = function (value, type) {
   } else {
     if (type === 'date') {
       return value instanceof Date
+    } else if (type === 'falsy') {
+      return !value
     }
   }
   return result
@@ -55,7 +57,7 @@ Number.prototype.isLessThan = function (value) {
   return this < value
 }
 
-Number.prototype.isContains = function (list) {
+Number.prototype.isIn = function (list) {
   let result = false
   if (Array.isArray(list)) {
     result = list.includes(this)
@@ -113,7 +115,7 @@ String.prototype.inLength = function (min, max) {
   return min <= this.length  && this.length  <= max
 }
 
-String.prototype.isContains = function (list) {
+String.prototype.isIn = function (list) {
   if (Array.isArray(list)) {
     return list.includes(this)
   }
