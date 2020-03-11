@@ -1,6 +1,6 @@
 {
   "name": "kungfu-validatorjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validator Javascript base on prototype",
   "main": "index.js",
   "scripts": {
