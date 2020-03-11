@@ -28,6 +28,12 @@ string.isAlpha() // false
 string.inLength(10, 100) // true
 ```
 
+Or You can import it
+
+```js
+import is from 'kungfu-validatorjs'
+```
+
 ## How To Contribute
 
 Clone this project
