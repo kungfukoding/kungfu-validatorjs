@@ -2,6 +2,12 @@
 
 Validator Javascript base on prototype
 
+## Installation
+
+```
+npm install kungfu-validatorjs
+```
+
 ## How To Use
 
 ```js
@@ -20,4 +26,15 @@ const string = 'hafidmukhlasin@gmail.com'
 string.isEmail() // true
 string.isAlpha() // false
 string.inLength(10, 100) // true
+```
+
+## How To Contribute
+
+Clone this project
+
+```
+git clone https://gitlab.com/kungfukoding/kungfu-validatorjs.git
+cd kungfu-validatorjs
+npm install
+npm test
 ```
