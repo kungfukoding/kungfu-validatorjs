@@ -1,0 +1,22 @@
+{
+  "name": "kungfu-validatorjs",
+  "version": "1.0.0",
+  "description": "Validator Javascript base on prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js ./index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/kungfukoding/kungfu-validatorjs.git"
+  },
+  "keywords": [
+    "validator"
+  ],
+  "author": "Hafid Mukhlasin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/kungfukoding/kungfu-validatorjs/issues"
+  },
+  "homepage": "https://gitlab.com/kungfukoding/kungfu-validatorjs#readme"
+}
