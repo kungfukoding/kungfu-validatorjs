@@ -2,6 +2,8 @@
 
 Validator Javascript base on prototype
 
+[![npm downloads](https://img.shields.io/npm/dm/kungfu-validatorjs.svg?style=flat-square)](https://www.npmjs.com/package/kungfu-validatorjs)
+
 ## Installation
 
 ```
@@ -36,7 +38,7 @@ import is from 'kungfu-validatorjs'
 
 ## Documentation
 
-You can find the documentation in [click here](./docs.md)
+You can find the documentation in [click here](./doc.md)
 
 ## How To Contribute
 
@@ -48,3 +50,8 @@ cd kungfu-validatorjs
 npm install
 npm test
 ```
+
+
+## License
+
+[MIT](LICENSE.md)
