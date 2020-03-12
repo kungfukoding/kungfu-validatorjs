@@ -3,6 +3,7 @@
 Validator Javascript base on prototype
 
 [![npm downloads](https://img.shields.io/npm/dm/kungfu-validatorjs.svg?style=flat-square)](https://www.npmjs.com/package/kungfu-validatorjs)
+![Node.js CI](https://github.com/kungfukoding/kungfu-validatorjs/workflows/Node.js%20CI/badge.svg)
 
 ## Installation
 
