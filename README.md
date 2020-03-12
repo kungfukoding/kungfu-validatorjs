@@ -36,7 +36,7 @@ import is from 'kungfu-validatorjs'
 
 ## Documentation
 
-[Documentation](./docs.md)
+You can find the documentation in [click here](./docs.md)
 
 ## How To Contribute
 
