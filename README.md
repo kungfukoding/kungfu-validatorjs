@@ -34,6 +34,10 @@ Or You can import it
 import is from 'kungfu-validatorjs'
 ```
 
+## Documentation
+
+[Documentation]('./docs.md')
+
 ## How To Contribute
 
 Clone this project
