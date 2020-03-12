@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/kungfukoding/kungfu-validatorjs.git"
+    "url": "git+https://github.com/kungfukoding/kungfu-validatorjs.git"
   },
   "keywords": [
     "validator"
   ],
-  "author": "Hafid Mukhlasin",
-  "license": "ISC",
+  "author": "Hafid Mukhlasin <hafidmukhlasin@gmail.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/kungfukoding/kungfu-validatorjs/issues"
+    "url": "https://github.com/kungfukoding/kungfu-validatorjs/issues"
   },
-  "homepage": "https://gitlab.com/kungfukoding/kungfu-validatorjs#readme"
+  "homepage": "https://github.com/kungfukoding/kungfu-validatorjs#readme"
 }
