@@ -2,9 +2,10 @@
   "name": "kungfu-validatorjs",
   "version": "1.0.3",
   "description": "Validator Javascript base on prototype",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "node test.js ./index.test.js"
+    "build": "uglifyjs ./src/index.js -o ./dist/index.js --compress --mangle",
+    "test": "node ./test.js ./src/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kungfukoding/kungfu-validatorjs/issues"
   },
-  "homepage": "https://github.com/kungfukoding/kungfu-validatorjs#readme"
+  "homepage": "https://github.com/kungfukoding/kungfu-validatorjs#readme",
+  "devDependencies": {
+    "uglify-js": "^3.8.0"
+  }
 }

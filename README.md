@@ -39,7 +39,7 @@ import is from 'kungfu-validatorjs'
 
 ## Documentation
 
-You can find the documentation in [click here](./doc.md)
+You can find the documentation in [click here](./guide.md)
 
 ## How To Contribute
 
@@ -49,7 +49,8 @@ Clone this project
 git clone https://gitlab.com/kungfukoding/kungfu-validatorjs.git
 cd kungfu-validatorjs
 npm install
-npm test
+npm run build
+npm run test
 ```
 
 
