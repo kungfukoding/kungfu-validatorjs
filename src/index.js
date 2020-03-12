@@ -1,7 +1,7 @@
 /* Any */
 
-var is = function (value, type) {
-  var types = {
+function is (value, type) {
+  const types = {
     string: 'string',
     number: 'number',
     boolean: 'boolean',
@@ -9,7 +9,7 @@ var is = function (value, type) {
     array: 'object',
     function: 'function'
   }
-  var result = false
+  let result = false
   if (types.hasOwnProperty(type)) {
     result = typeof value == types[type]
     if (type === 'array') {
@@ -58,7 +58,7 @@ Number.prototype.isLessThan = function (value) {
 }
 
 Number.prototype.isIn = function (list) {
-  var result = false
+  let result = false
   if (Array.isArray(list)) {
     result = list.includes(this)
   }

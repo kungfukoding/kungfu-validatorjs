@@ -1,5 +1,5 @@
-var assert = require('assert')
-var is = require('./index')
+const assert = require('assert')
+const is = require('./index')
 
 test('check is number', () => {
     assert.equal(is(15, 'number'), true)
@@ -10,42 +10,47 @@ test('check is string', () => {
 })
 
 test('check number isGreaterThan', () => {
-    var number = 15
+    const number = 15
     assert.equal(number.isGreaterThan(20), false)
 })
 
 test('check number isLessThan', () => {
-    var number = 15
+    const number = 15
     assert.equal(number.isLessThan(20), true)
 })
 
 test('check number inRange', () => {
-    var number = 15
+    const number = 15
     assert.equal(number.inRange(5, 20), true)
 })
 
-test('check number isContains', () => {
-    var number = 15
-    assert.equal(number.isIn([5,10,15,20]), false)
+test('check number isIn', () => {
+    const number = 15
+    assert.equal(number.isIn([5,10,15,20]), true)
 })
 
 test('check string isEmail', () => {
-    var string = 'hafidmukhlasin@gmail.com'
+    const string = 'hafidmukhlasin@gmail.com'
     assert.equal(string.isEmail(), true)
 })
 
 test('check string isAlpha', () => {
-    var string = 'Abcd1234'
+    const string = 'Abcd1234'
     assert.equal(string.isAlpha(), false)
 })
 
 test('check string isAlnum', () => {
-    var string = 'Abcd1234'
+    const string = 'Abcd1234'
     assert.equal(string.isAlnum(), true)
 })
 
+test('check string isIn', () => {
+    const string = 'aku'
+    assert.equal(string.isIn(['saya', 'aku', 'kamu', 'dia']), true)
+})
+
 test('check string inLength', () => {
-    var string = 'Abcd1234'
+    const string = 'Abcd1234'
     assert.equal(string.inLength(3, 10), true)
 })
 

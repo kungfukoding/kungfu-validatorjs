@@ -4,8 +4,8 @@
   "description": "Validator Javascript base on prototype",
   "main": "dist/index.js",
   "scripts": {
-    "build": "uglifyjs ./src/index.js -o ./dist/index.js --compress --mangle",
-    "test": "node ./test.js ./src/index.test.js"
+    "build": "rm -rf dist && babel src -d dist",
+    "test": "node test.js ./dist/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,11 @@
   },
   "homepage": "https://github.com/kungfukoding/kungfu-validatorjs#readme",
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-typescript": "^7.8.3",
+    "babel-minify": "^0.5.1",
     "uglify-js": "^3.8.0"
   }
 }
